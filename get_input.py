@@ -29,9 +29,7 @@ with open(cookie_file, 'r') as f:
     cookie = f.readline()
 
 url = f'https://adventofcode.com/{args.year}/day/{args.day}/input'
-headers = [(
-    'Cookie', f'session={cookie}'
-)]
+headers = [('Cookie', f'session={cookie}')]
 
 opener = urllib.request.build_opener()
 opener.addheaders = headers
