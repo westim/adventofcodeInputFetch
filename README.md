@@ -1,6 +1,6 @@
 # Introduction
 
-This Python script fetches the given Advent of Code input.
+This Python script gets Advent of Code input and writes to a local file.
 
 # Setup
 
@@ -9,6 +9,10 @@ This script was designed to work with standard Python libraries, no pip required
 In order to support all browsers, the cookie must be provided manually. The script
 expects the value of the `session` cookie to be located in a file named `cookie`. This
 can be any file type.
+
+The **Value** of the cookie can be found on the **Application** tab in Chrome Dev Tools:
+
+![Image](cookie.png)
 
 # Execution
 
