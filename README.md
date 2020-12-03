@@ -12,7 +12,7 @@ can be any file type.
 
 The **Value** of the cookie can be found on the **Application** tab in Chrome Dev Tools:
 
-![Image](cookie.png)
+![Image](screenshot.png)
 
 # Execution
 

@@ -26,7 +26,7 @@ if cookie_file is None:
 
 cookie = None
 with open(cookie_file, 'r') as f:
-    cookie = f.readline()
+    cookie = f.readline().strip()
 
 url = f'https://adventofcode.com/{args.year}/day/{args.day}/input'
 headers = [('Cookie', f'session={cookie}')]
