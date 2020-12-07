@@ -9,7 +9,7 @@ parser.add_argument('day', type=int, help='day to download from')
 args = parser.parse_args()
 
 current_date = datetime.datetime.today()
-if args.day < 0 or args.day > 31 or args.day > current_date.day:
+if args.day < 0 or args.day > 31 or args.day > current_date.day + 1:
     exit(f'Day {args.day} is not valid')
 if args.year < 2015 or args.year > current_date.year:
     exit(f'Year {args.year} is not valid')
